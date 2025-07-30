@@ -1,0 +1,50 @@
+h1
+{
+    color: #000000;
+    text-align: center;
+    border: 10px solid rgba(26, 2, 63, 0.5);
+ 
+}
+h2
+{
+     
+    text-align: center;
+  word-spacing: 40px;
+}
+h3
+{
+    text-align: center;
+}
+h4
+{
+    font-size: large;
+    text-align: center;
+    letter-spacing: 10px;
+}
+body
+{
+    background-color: antiquewhite;
+}
+ul
+{
+    text-align: center;
+    color: rgb(253, 0, 0);
+}
+nav {
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 20px;
+  word-spacing: 40px;
+   background-color: #ceeddf;
+}
+
+nav {
+  text-align: center;
+  padding: 20px;
+}
+p {
+    color: #000000;
+    text-align: center;
+}
