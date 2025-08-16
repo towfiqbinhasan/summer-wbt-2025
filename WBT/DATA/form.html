@@ -8,32 +8,39 @@
 </head>
 <body>
   <header>
-     <nav><a href="../index.html">Home</a> 
-    <a href="../HTML/Eductiom.html">Education</a> 
-    <a href="../HTML/Exp.html">Experience</a>
-    <a href="../HTML/Project.html">Project</a>
-    <a href="../HTML/Contract.html">Contact</a></nav>
+     <nav>
+        <a href="../index.html">Home</a> 
+        <a href="../HTML/Eductiom.html">Education</a> 
+        <a href="../HTML/Exp.html">Experience</a>
+        <a href="../HTML/Project.html">Project</a>
+        <a href="../HTML/Contract.html">Contact</a>
+     </nav>
   </header>
  
-   
-    <form method="GET">
-        First Name: <input type = "text" name="firstname" required><br>
-        Last Name: <input type = "text" name="lastname" required><br>
-        Email: <input type = "email" required><br>
+  <form id="cvForm">
+        First Name: <input type="text" id="firstname" name="firstname" required><br>
+        Last Name: <input type="text" id="lastname" name="lastname" required><br>
+        Email: <input type="email" id="email" required><br>
+
         Service:<br>
-        <input type = "radio" name="service" required>Web Developer<br>
-        <input type = "radio" name="service">Data Scientist<br>
-        <input type = "radio" name="service">Frontend Developer<br>
+        <input type="radio" name="service" value="Web Developer" required> Web Developer<br>
+        <input type="radio" name="service" value="Data Scientist"> Data Scientist<br>
+        <input type="radio" name="service" value="Frontend Developer"> Frontend Developer<br>
+
         Project:<br>
-        <input type = "checkbox" required>Full Stack Web Development<br>
-        <input type = "checkbox">NLP<br>
-        <input type = "checkbox">Data Science<br>
+        <input type="checkbox" value="Full Stack Web Development"> Full Stack Web Development<br>
+        <input type="checkbox" value="NLP"> NLP<br>
+        <input type="checkbox" value="Data Science"> Data Science<br>
        
-        <input type = "submit" value="Register">
-        <input type = "reset">
-    </form>
-     <p class="copyright">
-                &copy; 2025 MD. TOWFIQ BIN HASAN. All rights reserved.
-            </p>
+        <input type="submit" value="Register">
+        <input type="reset">
+  </form>
+
+  <p class="copyright">
+      &copy; 2025 MD. TOWFIQ BIN HASAN. All rights reserved.
+  </p>
+
+  
+   <script src="../DATA/Customer.js"></script>
 </body>
 </html>

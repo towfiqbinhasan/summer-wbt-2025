@@ -1,0 +1,37 @@
+
+    body {
+        
+        font-family: Arial, sans-serif; 
+        padding: 20px; }
+    #details { 
+        display: none; 
+        margin-top: 20px; }
+div{
+
+   margin: 20px;
+    padding: 20px 30px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); 
+    max-width: 500px;  
+    width: 100%;       
+    text-align: center; 
+}
+body{
+    background-color: goldenrod
+    
+}
+nav {
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+  color: darkblue;
+  font-size: 20px;
+  word-spacing: 40px;
+   background-color: #08ec85;
+}
+nav {
+  text-align: center;
+  padding: 20px;
+}
