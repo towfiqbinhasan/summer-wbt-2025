@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Registration</title>
+  <link rel="stylesheet" href="../CSS/Registration.css" />
+</head>
+<body>
+  <header class="page-header">
+    <div class="brand">
+      <div class="logo">
+         <img src="../Image/circle-line-simple-design-logo-600nw-2174926871.webp" alt="xCompany logo" class="logo">
+      </div>
+      <div class="company-name">xCompany</div>
+    </div>
+    <nav class="top-nav">
+      <a href="../HTML+PHP/PublicHome.php">Home</a> | <a href="..//HTML+PHP/Login.html">Login</a> | <a href="../HTML+PHP/Registration.html">Registration</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="registration-card">
+      <h1 class="title">REGISTRATION</h1>
+
+      <form class="reg-form" action="#" method="post" autocomplete="off">
+        <label>
+          <span class="label-text">Name:</span>
+         
+          <input type="text" name="name" required />
+        </label>
+
+        <label>
+          <span class="label-text">Email:</span>
+         
+          <div class="email-row">
+            <input type="email" name="email" required />
+            <span class="info">i</span>
+          </div>
+        </label>
+
+        <label>
+          <span class="label-text">User Name:</span>
+         
+          <input type="text" name="username" required />
+        </label>
+
+        <label>
+          <span class="label-text">Password:</span>
+         
+          <input type="password" name="password" required />
+        </label>
+
+        <label>
+          <span class="label-text">Confirm Password:</span>
+          
+          <input type="password" name="confirm_password" required />
+        </label>
+
+        <fieldset class="gender-fieldset">
+          <legend>Gender</legend>
+          <label class="radio">
+            <input type="radio" name="gender" value="male" checked /> Male
+            <input type="radio" name="gender" value="female" /> Female 
+            <input type="radio" name="gender" value="other" /> Other
+          </label>
+        </fieldset>
+
+        <label class="dob-label">
+            <legend>Date of Birth</legend>
+                <input type="text" name="dd" size="2" maxlength="2" required /> <br>
+                
+                <input type="text" name="mm" size="2" maxlength="2" required />
+                <br>
+                <input
+                  type="text"
+                  name="yyyy"
+                  size="4"
+                  maxlength="4"
+                  required
+                />
+                <span class="dob-format">(dd/mm/yyyy)</span>
+
+        </label>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Submit</button>
+          <button type="reset" class="btn alt">Reset</button>
+        </div>
+      </form>
+
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <div>Copyright © 2017</div>
+  </footer>
+</body>
+</html>
